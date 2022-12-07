@@ -1,0 +1,203 @@
+version: '3.8'
+
+services:
+  one:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './01:/opt/app/api'
+      - '/opt/app/api/tmp'
+  two:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './02:/opt/app/api'
+      - '/opt/app/api/tmp'
+  three:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './03:/opt/app/api'
+      - '/opt/app/api/tmp'
+  four:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './04:/opt/app/api'
+      - '/opt/app/api/tmp'
+  five:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './05:/opt/app/api'
+      - '/opt/app/api/tmp'
+  six:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './06:/opt/app/api'
+      - '/opt/app/api/tmp'
+  seven:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './07:/opt/app/api'
+      - '/opt/app/api/tmp'
+  eight:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './08:/opt/app/api'
+      - '/opt/app/api/tmp'
+  nine:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './09:/opt/app/api'
+      - '/opt/app/api/tmp'
+  ten:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './10:/opt/app/api'
+      - '/opt/app/api/tmp'
+  eleven:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './11:/opt/app/api'
+      - '/opt/app/api/tmp'
+  twelve:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './12:/opt/app/api'
+      - '/opt/app/api/tmp'
+  thirteen:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './13:/opt/app/api'
+      - '/opt/app/api/tmp'
+  fourteen:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './14:/opt/app/api'
+      - '/opt/app/api/tmp'
+  fifteen:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './15:/opt/app/api'
+      - '/opt/app/api/tmp'
+  sixteen:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './16:/opt/app/api'
+      - '/opt/app/api/tmp'
+  seventeen:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './17:/opt/app/api'
+      - '/opt/app/api/tmp'
+  eighteen:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './18:/opt/app/api'
+      - '/opt/app/api/tmp'
+  nineteen:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './19:/opt/app/api'
+      - '/opt/app/api/tmp'
+  twenty:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './20:/opt/app/api'
+      - '/opt/app/api/tmp'
+  twenty-one:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './21:/opt/app/api'
+      - '/opt/app/api/tmp'
+  twenty-two:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './22:/opt/app/api'
+      - '/opt/app/api/tmp'
+  twenty-three:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './23:/opt/app/api'
+      - '/opt/app/api/tmp'
+  twenty-four:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './24:/opt/app/api'
+      - '/opt/app/api/tmp'
+  twenty-five:
+    build:
+      context: .
+      dockerfile: .docker/app/Dockerfile
+      target: dev
+    volumes:
+      - './25:/opt/app/api'
+      - '/opt/app/api/tmp'
