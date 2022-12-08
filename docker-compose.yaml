@@ -1,4 +1,4 @@
-version: '3.8'
+version: '03.8'
 
 services:
   one:
@@ -7,7 +7,7 @@ services:
       dockerfile: .docker/app/Dockerfile
       target: dev
     volumes:
-      - './1:/opt/app/api'
+      - './01:/opt/app/api'
       - '/opt/app/api/tmp'
   two:
     build:
@@ -15,7 +15,7 @@ services:
       dockerfile: .docker/app/Dockerfile
       target: dev
     volumes:
-      - './2:/opt/app/api'
+      - './02:/opt/app/api'
       - '/opt/app/api/tmp'
   three:
     build:
@@ -23,7 +23,7 @@ services:
       dockerfile: .docker/app/Dockerfile
       target: dev
     volumes:
-      - './3:/opt/app/api'
+      - './03:/opt/app/api'
       - '/opt/app/api/tmp'
   four:
     build:
@@ -31,7 +31,7 @@ services:
       dockerfile: .docker/app/Dockerfile
       target: dev
     volumes:
-      - './4:/opt/app/api'
+      - './04:/opt/app/api'
       - '/opt/app/api/tmp'
   five:
     build:
@@ -39,7 +39,7 @@ services:
       dockerfile: .docker/app/Dockerfile
       target: dev
     volumes:
-      - './5:/opt/app/api'
+      - './05:/opt/app/api'
       - '/opt/app/api/tmp'
   six:
     build:
@@ -47,7 +47,7 @@ services:
       dockerfile: .docker/app/Dockerfile
       target: dev
     volumes:
-      - './6:/opt/app/api'
+      - './06:/opt/app/api'
       - '/opt/app/api/tmp'
   seven:
     build:
@@ -55,7 +55,7 @@ services:
       dockerfile: .docker/app/Dockerfile
       target: dev
     volumes:
-      - './7:/opt/app/api'
+      - './07:/opt/app/api'
       - '/opt/app/api/tmp'
   eight:
     build:
@@ -63,7 +63,7 @@ services:
       dockerfile: .docker/app/Dockerfile
       target: dev
     volumes:
-      - './9:/opt/app/api'
+      - './08:/opt/app/api'
       - '/opt/app/api/tmp'
   nine:
     build:
@@ -71,7 +71,7 @@ services:
       dockerfile: .docker/app/Dockerfile
       target: dev
     volumes:
-      - './9:/opt/app/api'
+      - './09:/opt/app/api'
       - '/opt/app/api/tmp'
   ten:
     build:
